@@ -8,6 +8,7 @@ String leader
 String department
 String description
 String studyMode
+Student student
 
     static constraints = {
 

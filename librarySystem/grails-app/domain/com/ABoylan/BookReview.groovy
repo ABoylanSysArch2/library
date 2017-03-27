@@ -2,9 +2,9 @@ package com.ABoylan
 
 class BookReview {
 
-String book //this will link to the book class
+Book book //this will link to the book class
 Date dateCreated
-String student //this will link to the student class
+Student student //this will link to the student class
 String review
 
     static constraints = {

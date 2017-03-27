@@ -7,6 +7,7 @@ String address
 String openingHours
 String location
 int studySpaces
+static hasMany=[librarians:Librarian, books:Book, students:Student]//one to many relationships for a library can have many librarians, a library can have many books, a library can have many students
 
     static constraints = {
 

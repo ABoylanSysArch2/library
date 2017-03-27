@@ -8,7 +8,7 @@ String office
 String username
 String password
 int telephone
-String library //One library to many librarians, many librarians to one library
+Library library// this is now an object of type domain class Library
 
     static constraints = {
 
@@ -17,7 +17,7 @@ String library //One library to many librarians, many librarians to one library
 	office blank:false, nullable:false
 	username blank:false, nullable:false, unique:true
 	password blank:false, nullable:false
-	telephone blank:false, nullable:false, min:11
+	telephone blank:false, nullable:false
 	library blank:false, nullable:false
     }
 }

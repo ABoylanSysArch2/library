@@ -8,9 +8,10 @@ String author
 int isbn
 Date dateBorrowed
 Date returnDate
-String student
+Student student
 Boolean overdue
-// review one book has many reviews
+static hasMany=[bookreviews:BookReview]// one ot many relationship  one book can have many reviews
+
 
     static constraints = {
 	
