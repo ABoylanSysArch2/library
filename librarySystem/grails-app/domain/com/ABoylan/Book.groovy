@@ -5,12 +5,13 @@ class Book {
 String title
 String subject
 String author
-int isbn
+String isbn
 Date dateBorrowed
 Date returnDate
-Student student
 Boolean overdue
-static hasMany=[bookreviews:BookReview]// one ot many relationship  one book can have many reviews
+Library library //an instance of the library class
+Student student //an instance of the student class (not sure if this is needed as there can be books not being borrowed)
+static hasMany=[bookreviews:BookReview]// one to many relationship  one book can have many reviews
 
 
     static constraints = {
@@ -21,7 +22,7 @@ static hasMany=[bookreviews:BookReview]// one ot many relationship  one book can
 	isbn blank:false, nullable:false
 	dateBorrowed blank:false, nullable:false
 	returnDate blank:false, nullable:false
-	student blank:false, nullable:false
+	
 	
     }
 }

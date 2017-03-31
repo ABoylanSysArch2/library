@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-		def rar1 = new Librarian( name:'Cathey Carter Smith',
+		/*def rar1 = new Librarian( name:'Cathey Carter Smith',
 			      email:'CCSmith@nots.co.uk',
 			      office:'E2381',
 			      username:'CCS001',
@@ -84,7 +84,7 @@ class BootStrap {
 				leader:'Dr Carrot',
 				department:'ACES',
 				description:'''Computer''',
-				studyMode:'Full-Time').save()
+				studyMode:'Full-Time').save()*/
 
 //cor1.addToStudent(stu1)
 //cor2.addToStudent(stu2)

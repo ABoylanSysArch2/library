@@ -7,7 +7,7 @@ String email
 String username
 String password
 String studentId
-static hasOne=[course:Course] // creates the one to one relationship with Course one student has one course
+Course course // creates the one to one relationship with Course one student has one course
 static hasMany=[books:Book, bookreviews:BookReview]//one to many relationships one student can have many books, one student can have many book reviews
 
 
