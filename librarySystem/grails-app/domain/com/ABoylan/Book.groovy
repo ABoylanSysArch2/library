@@ -13,6 +13,12 @@ Library library //an instance of the library class
 Student student //an instance of the student class (not sure if this is needed as there can be books not being borrowed)
 static hasMany=[bookreviews:BookReview]// one to many relationship  one book can have many reviews
 
+String toString() {
+
+return title
+
+}
+
 
     static constraints = {
 	

@@ -6,8 +6,14 @@ String buildingName
 String address
 String openingHours
 String location
-int studySpaces
+String studySpaces
 static hasMany=[librarians:Librarian, books:Book]//one to many relationships for a library can have many librarians, a library can have many books, a library can have many students
+
+String toString() {
+
+return buildingName
+
+}
 
     static constraints = {
 
@@ -15,6 +21,6 @@ static hasMany=[librarians:Librarian, books:Book]//one to many relationships for
 	address blank:false, nullable:false
 	openingHours blank:false, nullable:false
 	location blank:false, nullable:false
-	studySpaces blank:false, nullable:false, max:100
+	studySpaces blank:false, nullable:false
     }
 }

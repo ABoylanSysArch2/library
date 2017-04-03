@@ -7,6 +7,12 @@ Date dateMade
 Student student //this will link to the student class
 String review
 
+String toString() {
+
+return review
+
+}
+
     static constraints = {
 
 	book blank:false, nullable:false

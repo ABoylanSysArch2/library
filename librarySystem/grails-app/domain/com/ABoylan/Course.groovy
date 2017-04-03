@@ -10,6 +10,12 @@ String description
 String studyMode
 static hasMany=[students:Student]//many students
 
+String toString() {
+
+return title
+
+}
+
     static constraints = {
 
 	title blank:false, nullable:false

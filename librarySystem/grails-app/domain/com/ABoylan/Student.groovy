@@ -10,6 +10,12 @@ String studentId
 Course course // creates the one to one relationship with Course one student has one course
 static hasMany=[books:Book, bookreviews:BookReview]//one to many relationships one student can have many books, one student can have many book reviews
 
+String toString() {
+
+return name
+
+}
+
 
     static constraints = {
 

@@ -7,8 +7,14 @@ String email
 String office
 String userName
 String password
-int telephone
+String telephone
 Library library// this is now an object of type domain class Library
+
+String toString() {
+
+return name
+
+}
 
     static constraints = {
 
