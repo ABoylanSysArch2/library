@@ -31,7 +31,7 @@
 	   </td></tr>
 	 <tr><td></td>
 	  <td>
-	   <input type="submit"  value"login"/>
+	   <input type="submit"  value"studentlogin"/>
 	  </td></tr>
 	 </table>
 	 </g:form>

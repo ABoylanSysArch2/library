@@ -47,16 +47,7 @@
 			</button>
 		</div>
 
-		<div class="first">
 		
-				<h3>Student Search</h3>
-
-		<p>Click on the link below to search for specific students within out database</p>
-
-			<button type="button" class="btn btn-success">
-				<g:link controller="student" action="advSearch">Student Search</g:link>
-			</button>
-		</div>
 
 		<div class="second">
 		
@@ -69,7 +60,18 @@
 			</button>
 		</div>
 
+				<div class="first">
+		
+				<h3>Student Search</h3>
+
+		<p>Click on the link below to search for specific students within out database</p>
+
+			<button type="button" class="btn btn-success">
+				<g:link controller="student" action="advSearch">Student Search</g:link>
+			</button>
+		</div>
+
 	</div>
 	</div>
 </body>
-</html>
+</html>	

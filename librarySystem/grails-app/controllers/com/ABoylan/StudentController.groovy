@@ -3,6 +3,43 @@ package com.ABoylan
 class StudentController {
 
     def scaffold = Student
+
+	def studentlogin(){
+
+}//new code if studentlogin doesn't work then delete this!!!
+
+	def validate(){
+
+		def user = Student.findByUsername(params.username)
+
+		if (user && user.password == params.password){
+
+			session.user = user
+
+			render view:'home'
+	
+	}
+
+		else{
+
+			flash.message = "invalid username and password."
+
+			render view:'studentlogin'
+
+		}
+
+	}
+
+def logout = {
+
+	session.user = null
+
+	redirect(uri:'/')
+
+	}
+		
+
+
 	
 	def search(){
 }

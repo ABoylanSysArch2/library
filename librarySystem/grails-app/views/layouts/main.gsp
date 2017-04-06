@@ -18,6 +18,7 @@
 
 			<asset:image src="banner.png"/>
 			<g:loginToggle/>
+			<g:studentloginToggle/>
 
 		</div>
 
