@@ -39,13 +39,25 @@
 		
 				
 		
-				<h3>Book Search</h3>
+				<h3>Book Search (This doesn't work)</h3>
 
 		<p>Click on the link below to search for specific books within out database</p>
 
 			<button type="button" class="btn btn-success">
 				<g:link controller="book" action="advSearch">Book Search</g:link>
 			</button>
+		</div>
+
+		<div class="first">
+
+				<h3>Book XML Search</h3>
+
+		<p>Click on the link below to see a list of all of the books in our database.</p>
+
+			<button type="button" class="btn btn-success">
+				<g:link controller="book" action="show">Book List</g:link>
+			</button>
+
 		</div>
 
 </div>
